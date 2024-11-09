@@ -429,14 +429,16 @@ def buat_reservasi(username):
         
             if nomor_kamar in data.get("reservasi", {}):
                 print(f"Kamar {nomor_kamar} sudah dipesan! Silakan pilih kamar lain.")
-                return
+                os.system("pause")
+                tamu(username)
             
             harga_kamar = next((detail["harga/malam"] for lantai in data["kamar"].values() for nomor_kamar_detail, detail in lantai.items() 
             if nomor_kamar_detail == nomor_kamar), None)
 
             if harga_kamar is None:
                 print(f"Kamar {nomor_kamar} tidak ditemukan!")
-                return
+                os.system("pause")
+                tamu(username)
 
             if saldo_Emoney >= harga_kamar:
                 tanggal_reservasi = input("Masukkan tanggal reservasi (YYYY-MM-DD): ")
@@ -448,7 +450,8 @@ def buat_reservasi(username):
                     datetime.strptime(waktu_reservasi, "%H:%M")
                 except ValueError:
                     print("Format tanggal atau waktu tidak valid!")
-                    return
+                    os.system("pause")
+                    tamu(username)
                 
                 if 'reservasi' not in data:
                     data['reservasi'] = {}
@@ -470,6 +473,8 @@ def buat_reservasi(username):
                 print(f"Reservasi untuk {username} di kamar {nomor_kamar} pada {tanggal_reservasi} pukul {waktu_reservasi} berhasil! Sisa E-Money Anda: Rp.{data['Saldo_E Money'][index]:,.2f}")
 
                 UpdateTable()  
+                os.system("pause")
+                tamu(username)
             else:
                 print("Saldo Anda tidak cukup! Mohon top up terlebih dahulu.")
                 os.system("pause")
