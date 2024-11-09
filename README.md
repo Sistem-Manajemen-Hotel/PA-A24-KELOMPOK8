@@ -26,8 +26,17 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
      
 
 **1. Login (jika sudah memiliki akun)**
-  
-   Ketika user telah memiliki akun atau memasukkan Username dan PIN yang sudah terdaftar dalam data Hotel, maka user ketik 1, dan dengan otomatis akan diarahkan ke menu fitur tamu.
+
+   jika user milih no 1 maka menampilkan username dan pin,
+   jika user telah memiliki akun yang sudah terdaftar dalam data Hotel maka user diminta menginputkan Username dan PIN,
+
+   * Tampilan jika user benar menginputkan Username atau PIN.
+
+   ![image](https://github.com/user-attachments/assets/9e1edc09-2ef9-48e8-8d34-9cb6c649d71e)
+
+   jika username dan pin benar akan masuk ke menu tamu, maka akan menampilkan seperti ini
+
+   ![image](https://github.com/user-attachments/assets/dc8a47a2-646d-4802-bd50-f9bd9edb02e2)
    
    * Tampilan jika user salah menginputkan Username atau PIN.
     
@@ -39,8 +48,14 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
 
    ^^User salah menginputkan PIN^^ 
 
-   User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
-   
+   User yang salah memasukkan Username dan PIN, outputnya username dan pin tidak valid dan diminta untuk menginputkan data kembali.
+
+   * Jika user 3 kali mencoba login maka,
+
+     ![image](https://github.com/user-attachments/assets/5e5cba8d-f3f9-4c69-ae5f-20a427957363)
+
+   Outputnya akan di blokir selama 10 detik karena user menginput username salah ke tiga kali percobaan dan kembali ke menu login dan daftar akun.
+
    
 **2. Sign Up (jika belum memiliki akun)**
 
