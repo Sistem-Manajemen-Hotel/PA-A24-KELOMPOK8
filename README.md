@@ -178,18 +178,19 @@ Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Bal
 Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam suatu urutan tertentu, seperti nomor, nama panjang, username, PIN, No. Hp, dan saldo E Money, abjad, atau karakteristik lainnya. Selain itu, admin juga dapat melakukan searching atau proses mencari informasi atau nilai tertentu dalam suatu kumpulan data atau struktur. Sorting dan searching ini sangat berguna dalam berbagai aplikasi, mulai dari penyimpanan data, pemrosesan informasi, hingga optimasi pencarian.
 
 1. Sorting dan Searching Daftar Akun
-    
-**Sorting Akun**
 
-  Admin dapat melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
-  
-  * Sebelum
+   **Sorting Akun**
+
+   Admin dapat melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
+
+    * Sebelum
     
 ![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
 Daftar akun tamu sebelum di sorting.
 
-  * Sesudah
+   * Sesudah
+    
 ![Screenshot (261)](https://github.com/user-attachments/assets/c07df62c-9fc2-42b5-89a0-5547e9145f93)
 
 Admin telah melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
@@ -203,17 +204,37 @@ Admin telah melakukan sorting daftar akun tamu dengan menyusun data dengan uruta
 Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
 
 2. Sorting dan Searching Daftar Kamar
+
+   **Sorting Daftar Kamar**
+
+![Screenshot (231)](https://github.com/user-attachments/assets/92af0dd7-0454-43fa-bb54-bab69748ea1b)
+
+   Admin dapat melakukan sorting daftar kamar dengan menyusun data sengan urutan nomor kamar.
+
    
+   **Searching Kamar**
+
+![Screenshot (285)](https://github.com/user-attachments/assets/542b41cf-3214-4e0d-9829-126f31376a32)
+
+    Admin dapat melakukan searching kamar dengan menginputkan nomor kamar yang ingin dicari.
    
 # Tampilan Mode Update Kamar pada Admin
 
-![Screenshot (194)](https://github.com/user-attachments/assets/3d1c700f-72bc-404b-bc36-4cd57fe1a332)
+![Screenshot (290)](https://github.com/user-attachments/assets/d7ecb9fa-527e-43d2-9d76-25722b070db0)
 
-Admin bisa melakukan update kamar dengan memilih lantai kamar, masukkan nomor kamar yang ingin diubah, masukkan nomor baru, masukkan tipe kamar baru, dan harga per malam. Nomor kamar yang ingin diubah harus tersedia dalam daftar kamar.
+Admin bisa melakukan update kamar dengan memilih lantai kamar, masukkan nomor kamar yang ingin diubah, masukkan nomor baru, masukkan tipe kamar baru, dan harga per malam. Nomor kamar yang ingin diubah harus tersedia dalam daftar kamar. Seperti pada gambar diatas, admin ingin mengupdate kamar di kamar 311.
+
+* Sebelum di Update
+
+![Screenshot (231)](https://github.com/user-attachments/assets/92af0dd7-0454-43fa-bb54-bab69748ea1b)
+
+* Sesudah di Update
+  
+  ![Screenshot (291)](https://github.com/user-attachments/assets/39f915df-fa45-49d2-9b7c-a1990ffa1a3b)
 
 * Jika nomor kamar yang dimasukkan tidak ditemukan.
   
-![Screenshot (191)](https://github.com/user-attachments/assets/b9dad1f3-cf05-40a7-942a-0082d89c0e37)
+![Screenshot (293)](https://github.com/user-attachments/assets/e425cfd1-8d08-474e-b457-bfe4fa1423ca)
 
 
 # Tampilan Mode Remove (Hapus Kamar) pada Admin
