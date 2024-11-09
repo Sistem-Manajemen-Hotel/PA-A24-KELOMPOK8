@@ -141,7 +141,7 @@ Dan ketika dia mengecek informasi akunnya, usernamenya telah diganti menjadi "Ke
 
 ![Screenshot (205)](https://github.com/user-attachments/assets/229e9718-be97-4892-8661-2c0b89123f36)
 
-Pada opsi ini tamu akan melihat informasi tentang akun mereka yang telah disimpan dalam database seperti Nama Panjang, Username, PIN, serta No.Hp.
+Tamu dengan nama "Mepa" ingin mengecek informasi akun miliknya dengan memilih opsi 7. Pada opsi ini "Mepa" akan melihat informasi tentang akunnya yang telah disimpan dalam database seperti Nama Panjang, Username, PIN, serta No.Hp.
 
 # Jika memilih opsi 8 maka akan diarahkan ke Log Out
 ![Screenshot (189)](https://github.com/user-attachments/assets/1030ab3a-f98f-48eb-985e-3c4ca0c88185)
