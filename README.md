@@ -27,8 +27,21 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
 2. Sign Up (jika belum punya akun)
+   Jika user belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up dengan menginputkan nama panjang, username, dan No. Hp.
    
-   Jika user belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up.
+![Screenshot (270)](https://github.com/user-attachments/assets/8cf48db2-f082-46b0-bacd-7fc55834248b)
+
+   * Tampilan jika user menginputkan username yang sudah terdaftar 
+     
+![Screenshot (268)](https://github.com/user-attachments/assets/4646f9c0-d257-4f21-b76a-ed011f88c0fa)
+
+Jika user memasukkan username yang sudah terdaftar dalam hotel, user diminta menginputkan kembali.
+
+* Tampilan jika user menginputkan No. Hp lebih dari 12 digit
+
+  ![Screenshot (269)](https://github.com/user-attachments/assets/88a8f7eb-53d9-43ff-882a-122cbbc49554)
+
+No. Hp yang dimasukkan user tidak boleh lebih dari 12 digit.
 
 # Jika Masuk dengan Username dan PIN "Admin" (Menu Fitur Admin)
 
