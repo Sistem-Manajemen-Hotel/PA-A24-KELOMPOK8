@@ -108,9 +108,10 @@ Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengec
 Maka tampilan pada tabel akan kosong.
 
 # Jika memilih opsi 4 maka akan diarahkan ke Cek Saldo E Money
-![Screenshot (174)](https://github.com/user-attachments/assets/3aa5b9eb-c767-4068-a3ce-29588803809d)
 
-Pada opsi 4, tamu bisa mengecek terlebih dahulu nominal saldo di E Money yang telah disimpan dalam database.
+![Screenshot (280)](https://github.com/user-attachments/assets/f5ca3e53-3f9c-4801-9842-3f863d2fd89f)
+
+Pada opsi 4, tamu bisa mengecek terlebih nominal saldo di E Money yang telah disimpan dalam database.
 
 # Jika memilih opsi 5 maka akan diarahkan ke Top Up Saldo
 
