@@ -177,7 +177,7 @@ Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Bal
 
 Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam suatu urutan tertentu, seperti nomor, nama panjang, username, PIN, No. Hp, dan saldo E Money, abjad, atau karakteristik lainnya. Selain itu, admin juga dapat melakukan searching atau proses mencari informasi atau nilai tertentu dalam suatu kumpulan data atau struktur. Sorting dan searching ini sangat berguna dalam berbagai aplikasi, mulai dari penyimpanan data, pemrosesan informasi, hingga optimasi pencarian.
 
-1. Sorting dan Searching Daftar Akun
+**1. Sorting dan Searching Daftar Akun**
 
    **Sorting Akun**
 
@@ -185,36 +185,37 @@ Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam
 
     * Sebelum
     
-![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
+   ![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
-Daftar akun tamu sebelum di sorting.
+   Daftar akun tamu sebelum di sorting.
 
    * Sesudah
     
-![Screenshot (261)](https://github.com/user-attachments/assets/c07df62c-9fc2-42b5-89a0-5547e9145f93)
+   ![Screenshot (261)](https://github.com/user-attachments/assets/c07df62c-9fc2-42b5-89a0-5547e9145f93)
 
-Admin telah melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
+   Admin telah melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
 
-**Searching Akun**
+   **Searching Akun**
 
   Admin dapat melakukan searching akun tamu dengan menginputkan username dari tamu yang ingin dicari.
   
-![Screenshot (263)](https://github.com/user-attachments/assets/5708801a-1a2e-4168-af1b-b1a07c4c0eaf)
+   ![Screenshot (263)](https://github.com/user-attachments/assets/5708801a-1a2e-4168-af1b-b1a07c4c0eaf)
 
-Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
+   Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
 
-2. Sorting dan Searching Daftar Kamar
+
+**2. Sorting dan Searching Daftar Kamar**
 
    **Sorting Daftar Kamar**
 
-![Screenshot (231)](https://github.com/user-attachments/assets/92af0dd7-0454-43fa-bb54-bab69748ea1b)
+   ![Screenshot (294)](https://github.com/user-attachments/assets/aad11e95-eec6-4ab8-80c4-f1141d478db7)
 
-   Admin dapat melakukan sorting daftar kamar dengan menyusun data sengan urutan nomor kamar.
+   Admin dapat melakukan sorting daftar kamar dengan menyusun data dengan mengurutan kamar sesuai dengan nomor kamar.
 
    
    **Searching Kamar**
 
-![Screenshot (285)](https://github.com/user-attachments/assets/542b41cf-3214-4e0d-9829-126f31376a32)
+   ![Screenshot (285)](https://github.com/user-attachments/assets/542b41cf-3214-4e0d-9829-126f31376a32)
 
     Admin dapat melakukan searching kamar dengan menginputkan nomor kamar yang ingin dicari.
    
