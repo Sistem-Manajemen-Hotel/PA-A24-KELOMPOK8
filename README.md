@@ -344,6 +344,7 @@ Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam
    ![image](https://github.com/user-attachments/assets/6a3fa78a-ba58-4929-9598-c1712a779486)
 
    Seperti pada gambar di atas, tabel kosong karena nomor kamar "711" ini tidak terdaftar di database hotel
+   
 # Tampilan Mode Update Kamar pada Admin
 
 ![Screenshot (290)](https://github.com/user-attachments/assets/d7ecb9fa-527e-43d2-9d76-25722b070db0)
