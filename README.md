@@ -4,7 +4,7 @@ Sistem Informasi - A - 2024
 **SISTEM MANAJEMEN HOTEL**
 <<>> Hotel Jatra Balikpapan <<>>
  
-# Anggota Kelompok 
+# Anggota Kelompok  
 1. Hendri Zaidan (2409116013)
 2. Najmi Hafizh Mauludan Zain (2409116028)
 3. Maifariza Aulia Dyas (2409116032)
