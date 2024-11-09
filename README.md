@@ -39,7 +39,7 @@ Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah
 # Jika Masuk dengan Username Tamu (Menu Fitur Tamu)
 
 ![Screenshot (232)](https://github.com/user-attachments/assets/c641477e-c674-4310-95a4-0c935a53438e)
-
+ 
 Tamu menginputkan Username dan PIN yang sudah terdaftar dalam database. Seperti gambar diatas, user menginputkan Username "Mepa" dan PIN "15937" maka user telah berhasil melakukan login sebagai tamu. Selanjutnya tamu akan diarahkan ke menu fitur tamu, yang di menu fitur tamu ini bisa melakukan melihat daftar kamar, buat reservasi, daftar reservasi, cek saldo E Money, Top Up saldo, Update Akun, Cek informasi akun, serta log out dari menu fitur tamu. 
 
 # Sign Up Akun (Daftar Akun Baru)
