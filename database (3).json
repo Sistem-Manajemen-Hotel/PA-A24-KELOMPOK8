@@ -1,0 +1,225 @@
+{
+    "AdminHotel": {
+        "Username": "adminhotel",
+        "PIN": "202921"
+    },
+    "Nama_Panjang": [
+        [
+            "Najmi Hafihz Mauludan Zain"
+        ],
+        [
+            "Maifariza Aulia Dyas"
+        ],
+        [
+            "Hendri Zaidan Safitra"
+        ],
+        [
+            "Putri Syafana Afrillia"
+        ],
+        [
+            "Musthafa Ahmad Maulana "
+        ],
+        [
+            "Adella Putri"
+        ]
+    ],
+    "Username": [
+        "Zain",
+        "Mepa",
+        "Henn",
+        "Putri",
+        "Mus",
+        "Adel"
+    ],
+    "PIN": [
+        48291,
+        15937,
+        73620,
+        23896,
+        85730,
+        23134
+    ],
+    "No_HP": [
+        "081234567890",
+        "082345678901",
+        "083456789012",
+        "084567890123",
+        "085678901234",
+        "081266349802"
+    ],
+    "Saldo_E Money": [
+        750000.0,
+        950000.0,
+        33001.0,
+        750000.0,
+        740000.0,
+        0,
+        0
+    ],
+    "kamar": {
+        "3": {
+            "301": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, makan",
+                "harga/malam": 300000
+            },
+            "302": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, makan",
+                "harga/malam": 300000
+            },
+            "303": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, makan",
+                "harga/malam": 300000
+            },
+            "304": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, makan",
+                "harga/malam": 300000
+            },
+            "305": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, makan",
+                "harga/malam": 300000
+            },
+            "306": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, makan",
+                "harga/malam": 450000
+            },
+            "307": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, makan",
+                "harga/malam": 450000
+            },
+            "308": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, makan",
+                "harga/malam": 450000
+            },
+            "309": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, makan",
+                "harga/malam": 450000
+            },
+            "310": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, makan",
+                "harga/malam": 450000
+            }
+        },
+        "4": {
+            "401": {
+                "tipe": "Single Bed ",
+                "fasilitas": "Kamar untuk 1 orang, sarapan, renang",
+                "harga/malam": 500000
+            },
+            "402": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, sarapan dan renang",
+                "harga/malam": 500000
+            },
+            "403": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, sarapan dan renang",
+                "harga/malam": 500000
+            },
+            "404": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, sarapan dan renang",
+                "harga/malam": 500000
+            },
+            "405": {
+                "tipe": "Single Bed",
+                "fasilitas": "Kamar untuk 1 orang, sarapan dan renang",
+                "harga/malam": 500000
+            },
+            "406": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang",
+                "harga/malam": 750000
+            },
+            "407": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang",
+                "harga/malam": 750000
+            },
+            "408": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang",
+                "harga/malam": 750000
+            },
+            "409": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang",
+                "harga/malam": 750000
+            },
+            "410": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang",
+                "harga/malam": 750000
+            }
+        },
+        "5": {
+            "501": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan, renang, layanan spa gratis",
+                "harga/malam": 900000
+            },
+            "502": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang, layanan spa gratis",
+                "harga/malam": 900000
+            },
+            "503": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan renang, layanan spa gratis",
+                "harga/malam": 900000
+            },
+            "504": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan kolam renang pribadi",
+                "harga/malam": 960000
+            },
+            "505": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan dan kolam renang pribadi",
+                "harga/malam": 960000
+            },
+            "506": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan, renang, dan Minibar",
+                "harga/malam": 935000
+            },
+            "507": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, makan, renang dan Minibar",
+                "harga/malam": 935000
+            },
+            "508": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan, renang dan Minibar",
+                "harga/malam": 935000
+            },
+            "509": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan, renang, layanan spa gratis, dan Minibar",
+                "harga/malam": 1050000
+            },
+            "510": {
+                "tipe": "Double Bed",
+                "fasilitas": "Kamar untuk 2 orang, sarapan, renang, layanan spa gratis, dan Minibar",
+                "harga/malam": 1050000
+            }
+        }
+    },
+    "reservasi": {
+        "301": {
+            "Username": "Putri",
+            "tanggal": "2024-09-03",
+            "waktu": "21:00",
+            "status": "Terpesan"
+        }
+    }
+}
