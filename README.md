@@ -20,9 +20,11 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
   
    Ketika user telah memiliki akun atau telah memasukkan Username dan PIN yang sudah terdaftar dalam data Hotel, maka user ketik 1, dan dengan otomatis akan diarahkan ke menu fitur tamu.
    
-   * Tampilan jika user salah menginputkan Username.
-     
-![Screenshot (197)](https://github.com/user-attachments/assets/d6cdcb06-96ce-4115-ac00-74786f450357)
+   * Tampilan jika user salah menginputkan Username atau PIN.
+     ![Screenshot (271)](https://github.com/user-attachments/assets/8fb51875-42c8-433b-8069-12d6ac28b51e)
+
+
+![Screenshot (274)](https://github.com/user-attachments/assets/8e1037ef-6965-4d29-b602-e569bc4bac1f)
 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
