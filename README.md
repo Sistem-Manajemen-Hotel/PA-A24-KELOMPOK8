@@ -57,31 +57,35 @@ Setelah proses sign up berhasil dilakukan, dengan otomatis akan menampilkan outp
 # Jika memilih opsi 1 maka akan diarahkan ke Daftar Kamar
 ![Screenshot (170)](https://github.com/user-attachments/assets/17749cb0-1e85-4508-bfb1-8180a3b91a5c)
 
-Setelah masuk ke menu fitur tamu, tamu dapat ketik opsi 1. Pada opsi 1, tamu bisa melihat daftar kamar yang ada di hotel dengan keterangan Nomor kamar, Tipe, Fasilitas, serta Harga/Malam nya. Disaat daftar kamar sudah muncul dalam output maka dengan otomatis akan looping ke menu fitur tamu
+Setelah masuk ke menu fitur tamu, tamu dapat ketik opsi 1. Pada opsi 1, tamu bisa melihat daftar kamar yang ada di hotel dengan keterangan Nomor kamar, Tipe, Fasilitas, serta Harga/Malam nya.
 
-![Screenshot (202)](https://github.com/user-attachments/assets/d03a3149-d54c-47e5-912a-1a720e70e77a)
+![Screenshot (231)](https://github.com/user-attachments/assets/92af0dd7-0454-43fa-bb54-bab69748ea1b)
 
 
 # Jika memilih opsi 2 maka akan diarahkan ke Buat Reservasi
 Opsi ini dibuat untuk para pengunjung Hotel Jatra Balikpapan untuk melakukan reservasi kamar. 
 Usert melihat daftar kamar terlebih dahulu untuk menginputkan nomor kamar, tanggal reservasi dan waktu reservasi kamar. Tampilannya seperti pada gambar dibawah ini.
 
+![Screenshot (224)](https://github.com/user-attachments/assets/a6a1f764-ef17-4046-bd0e-18391846b94d)
 
 * Jika memasukkan nomor kamar yang tidak tersedia di daftar kamar
   
 ![Screenshot (220)](https://github.com/user-attachments/assets/0ff0cd23-8619-4d64-b13c-6751ca9ff67d)
 
-* Jika memasukkan nomor kamar yang telah tersedia di daftar kamar
-  
+* Setelah transaksi reservasi kamar berhasil maka user ditampilkan invoice
+
+  ![343675a2-0573-4543-8f6a-7abba77ae322](https://github.com/user-attachments/assets/1e3cd638-ee93-426c-a571-df84f2adaa4d)
+
+Invoice berguna sebagai bukti pembayaran bahwa reservasi kamar telah berhasil dilakukan.
 
 # Jika memilih opsi 3 maka akan diarahkan ke Daftar Reservasi
 Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengecek apakah sudah ter-reservasi atau belum. 
 
 * Jika user telah berhasil melakukan reservasi dan ingin mengecek reservasi kamarnya maka tampilan seperti pada gambar di bawah ini
 
-  Telah ditampilkan pada tabel diatas bahwa user sudah melakukan reservasi kamar di Hotel Jatra Balikpapan.
+![Screenshot (230)](https://github.com/user-attachments/assets/650b2dde-98f4-447d-8ced-b6f53a883e70)
 
-  * Jika kebalikannya
+  Telah ditampilkan pada tabel diatas bahwa Putri sudah melakukan reservasi kamar di Hotel Jatra Balikpapan.
 
 # Jika memilih opsi 4 maka akan diarahkan ke Cek Saldo E Money
 ![Screenshot (174)](https://github.com/user-attachments/assets/3aa5b9eb-c767-4068-a3ce-29588803809d)
@@ -103,6 +107,9 @@ Akan menampilkan output bahwa jumlah top up harus lebih dari 0 dan setelah itu d
 
 * Setelah transaksi Top Up saldo berhasil maka user ditampilkan invoice
 
+![invoice saldo](https://github.com/user-attachments/assets/16ce4f0b-127f-4ad5-8da4-cfa5bdab8bea)
+
+Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah berhasil dilakukan.
 
 # Jika memilih opsi 6 maka akan diarahkan ke Update Akun
 
