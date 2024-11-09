@@ -18,7 +18,7 @@ Sistem Informasi-A 2024
 Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign Up terlebih dahulu.
 1. Login (jika sudah punya akun)
   
-   Ketika user telah memiliki akun atau telah memasukkan Username dan PIN yang disimpan dalam database maka user ketik 1.
+   Ketika user telah memiliki akun atau telah memasukkan Username dan PIN yang disimpan dalam database maka user ketik 1, dan dengan otomatis akan diarahkan me menu fitur tamu.
    
    * Tampilan jika user salah menginputkan Username.
      
@@ -37,7 +37,8 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
 Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah terdaftar sebagai admin. Setelah berhasil melakukan login, admin akan ditampilkan dengan menu fitur admin yang di menu fitur admin ini bisa melakukan proses CRUD (Create, Read, Update, Delete) data kamar, melihat daftar reservasi, melihat daftar akun, serta logout.
 
 # Jika Masuk dengan Username Tamu (Menu Fitur Tamu)
-![Screenshot (170)](https://github.com/user-attachments/assets/376f2528-7f2a-4161-99d4-8f072a664707)
+
+![Screenshot (232)](https://github.com/user-attachments/assets/c641477e-c674-4310-95a4-0c935a53438e)
 
 Tamu menginputkan Username dan PIN yang sudah terdaftar dalam database. Seperti gambar diatas, user menginputkan Username "Mepa" dan PIN "15937" maka user telah berhasil melakukan login sebagai tamu. Selanjutnya tamu akan diarahkan ke menu fitur tamu, yang di menu fitur tamu ini bisa melakukan melihat daftar kamar, buat reservasi, daftar reservasi, cek saldo E Money, Top Up saldo, Update Akun, Cek informasi akun, serta log out dari menu fitur tamu. 
 
