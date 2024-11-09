@@ -127,14 +127,14 @@ Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengec
 
   ![Screenshot (280)](https://github.com/user-attachments/assets/f5ca3e53-3f9c-4801-9842-3f863d2fd89f)
 
-Pada opsi 4, tamu bisa mengecek terlebih nominal saldo di E Money yang telah disimpan dalam database.
+ Pada opsi 4, tamu bisa mengecek terlebih dahulu nominal saldo di E Money mereka yang tersimpan dalam database.
 
 
 # Jika memilih opsi 5 maka akan diarahkan ke Top Up Saldo
 
   ![Screenshot (277)](https://github.com/user-attachments/assets/ab844785-be3f-4ff6-9da2-083aec5fe5a9)
 
-Ketika saldo E Money kurang, user bisa melakukan Top Up saldo ke E Money, tamu diminta untuk memasukkan nominal untuk ditambahkan dan nominal harus lebih dari 0.
+  Ketika saldo E Money kurang, user bisa melakukan Top Up saldo ke E Money, tamu diminta untuk memasukkan nominal untuk ditambahkan dan nominal harus lebih dari 0.
 
 * Setelah transaksi Top Up saldo berhasil maka user ditampilkan invoice
 
