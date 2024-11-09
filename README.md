@@ -34,6 +34,7 @@ User salah menginputkan PIN
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
 **2. Sign Up (jika belum punya akun)**
+
    Jika user belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up dengan menginputkan nama panjang, username, dan No. Hp.
    
 ![Screenshot (270)](https://github.com/user-attachments/assets/8cf48db2-f082-46b0-bacd-7fc55834248b)
