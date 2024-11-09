@@ -162,6 +162,7 @@ Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali ke m
 ![Screenshot (186)](https://github.com/user-attachments/assets/93df42e8-9423-4c23-8510-db3652cd6194)
 
 # Tampilan Mode Create (Tambah Kamar) Pada Admin
+
  Jika admin ingin menambah kamar hotel, input angka 2.
  
 ![Screenshot (253)](https://github.com/user-attachments/assets/c64918d2-81ef-4fa2-908b-2964b178ea62)
@@ -176,7 +177,7 @@ Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Bal
 
 Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam suatu urutan tertentu, seperti nomor, nama panjang, username, PIN, No. Hp, dan saldo E Money, abjad, atau karakteristik lainnya. Selain itu, admin juga dapat melakukan searching atau proses mencari informasi atau nilai tertentu dalam suatu kumpulan data atau struktur. Sorting dan searching ini sangat berguna dalam berbagai aplikasi, mulai dari penyimpanan data, pemrosesan informasi, hingga optimasi pencarian.
 
-1. Sorting dan Searching Akun
+1. Sorting dan Searching Daftar Akun
     
 **Sorting Akun**
 
@@ -201,10 +202,11 @@ Admin telah melakukan sorting daftar akun tamu dengan menyusun data dengan uruta
 
 Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
 
-2. Sorting dan Searching Kamar
-
+2. Sorting dan Searching Daftar Kamar
+   
    
 # Tampilan Mode Update Kamar pada Admin
+
 ![Screenshot (194)](https://github.com/user-attachments/assets/3d1c700f-72bc-404b-bc36-4cd57fe1a332)
 
 Admin bisa melakukan update kamar dengan memilih lantai kamar, masukkan nomor kamar yang ingin diubah, masukkan nomor baru, masukkan tipe kamar baru, dan harga per malam. Nomor kamar yang ingin diubah harus tersedia dalam daftar kamar.
