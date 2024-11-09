@@ -1,0 +1,9 @@
+===== Detail Invoice Reservasi =====
+Username: Putri
+Nomor Kamar: 410
+Tanggal Reservasi: 2024-04-04
+Waktu Reservasi: 19:00
+Harga Kamar: Rp.750,000
+===================================
+Terimakasih telah berkunjung di Hotel Jatra Balikpapan!
+
