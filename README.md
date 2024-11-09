@@ -144,12 +144,13 @@ Dan ketika dia mengecek informasi akunnya, usernamenya telah diganti menjadi "Ke
 Tamu dengan nama "Mepa" ingin mengecek informasi akun miliknya dengan memilih opsi 7. Pada opsi ini "Mepa" akan melihat informasi tentang akunnya yang telah disimpan dalam data hotel seperti Nama Panjang, Username, PIN, serta No.Hp.
 
 # Jika memilih opsi 8 maka akan diarahkan ke Log Out
-![Screenshot (189)](https://github.com/user-attachments/assets/1030ab3a-f98f-48eb-985e-3c4ca0c88185)
 
-Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali.
+![Screenshot (281)](https://github.com/user-attachments/assets/0b6d9ba4-c2a3-40e8-9ffc-f32125e6cbcd)
+
+Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali ke menu login.
 
 * Tampilan jika keluar dari program
-  Jika memilih keluar dari program, maka menampilkan output seperti dibawah ini.
+  Jika memilih keluar dari program, maka menampilkan output seperti pada gambar dibawah ini.
   
 ![Screenshot (187)](https://github.com/user-attachments/assets/1f526bcd-a11e-44c1-9ab7-3a8ba75be858)
 
