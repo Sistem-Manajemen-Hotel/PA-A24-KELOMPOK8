@@ -27,7 +27,7 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
 
 **1. Login (jika sudah memiliki akun)**
   
-   Ketika user telah memiliki akun atau telah memasukkan Username dan PIN yang sudah terdaftar dalam data Hotel, maka user ketik 1, dan dengan otomatis akan diarahkan ke menu fitur tamu.
+   Ketika user telah memiliki akun atau memasukkan Username dan PIN yang sudah terdaftar dalam data Hotel, maka user ketik 1, dan dengan otomatis akan diarahkan ke menu fitur tamu.
    
    * Tampilan jika user salah menginputkan Username atau PIN.
     
