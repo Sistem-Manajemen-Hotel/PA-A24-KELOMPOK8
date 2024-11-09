@@ -98,23 +98,22 @@ Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengec
 
   Telah ditampilkan pada tabel diatas bahwa Putri sudah melakukan reservasi kamar di Hotel Jatra Balikpapan.
 
+* Jika user belum melakukan reservasi kamar
+  
+  ![Screenshot (275)](https://github.com/user-attachments/assets/77cdf441-55e8-4be4-bed2-5602c05388b0)
+
+Maka tampilan pada tabel akan kosong.
+
 # Jika memilih opsi 4 maka akan diarahkan ke Cek Saldo E Money
 ![Screenshot (174)](https://github.com/user-attachments/assets/3aa5b9eb-c767-4068-a3ce-29588803809d)
 
 Pada opsi 4, tamu bisa mengecek terlebih dahulu nominal saldo di E Money yang telah disimpan dalam database.
 
 # Jika memilih opsi 5 maka akan diarahkan ke Top Up Saldo
-![Screenshot (175)](https://github.com/user-attachments/assets/73230227-4ec7-45a6-a063-314e2320ee09)
 
-Saat ingin menambah saldo ke E Money, tamu diminta untuk memasukkan nominal untuk ditambahkan. Dan nominal harus lebih dari 0.
+![Screenshot (277)](https://github.com/user-attachments/assets/ab844785-be3f-4ff6-9da2-083aec5fe5a9)
 
-* Jika memasukkan nominal kurang dari 0
-Akan menampilkan output bahwa jumlah top up harus lebih dari 0 dan setelah itu diminta memilih opsi 1-5 kembali.
-![Screenshot (187)](https://github.com/user-attachments/assets/2155bc43-2136-4208-aa20-28adf39497ca)
-
-* Ketik 4 jika ingin mengecek saldo E Money tamu setelah nominal tadi ditambahkan
-  
-![Screenshot (176)](https://github.com/user-attachments/assets/68001e60-f4f5-420b-ae0d-bed428be6798)
+Ketika saldo E Money kurang, user bisa melakukan Top Up saldo ke E Money, tamu diminta untuk memasukkan nominal untuk ditambahkan dan nominal harus lebih dari 0.
 
 * Setelah transaksi Top Up saldo berhasil maka user ditampilkan invoice
 
@@ -124,14 +123,15 @@ Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah b
 
 # Jika memilih opsi 6 maka akan diarahkan ke Update Akun
 
-![Screenshot (214)](https://github.com/user-attachments/assets/30547465-f37f-4400-af45-e416e30f0043)
+Tamu juga bisa meng-Update akun yang mereka punya dengan mengubah Username, PIN, ataupun No. Hp yang baru. Pada gambar diatas, user ingin mengubah PIN lama dengan memasukkan PIN nya yang baru. 
 
-Tamu juga bisa meng-Update akun yang mereka punya dengan mengubah Username, PIN, ataupun No. Hp yang baru. Pada gambar diatas, user ingin mengubah PIN lama dengan memasukkan PIN nya yang baru.
+![Screenshot (242)](https://github.com/user-attachments/assets/64fdf766-1ad9-499e-87c4-82ad4220ed48)
 
-* Ketik 7 untuk mengecek informasi akun baru setelah di update.
-  
-![Screenshot (215)](https://github.com/user-attachments/assets/5883373e-128a-4791-9b9a-8dd7a46133c3)
+Pada gambar diatas, tamu dengan username "Siti" ingin mengubah usernamenya menjadi "Kela"
 
+![Screenshot (243)](https://github.com/user-attachments/assets/dc79337d-d1b0-4b2e-aaca-6ce74130e507)
+
+Dan ketika dia mengecek informasi akunnya, usernamenya telah diganti menjadi "Kela".
 
 # Jika memilih opsi 7 maka akan diarahkan ke Cek Informasi Akun
 
