@@ -2,6 +2,7 @@
 Sistem Informasi - A - 2024
 
 **SISTEM MANAJEMEN HOTEL**
+
 <<>> Hotel Jatra Balikpapan <<>>
  
 # Anggota Kelompok 
@@ -39,6 +40,7 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
+   
 **2. Sign Up (jika belum memiliki akun)**
 
    Bagi user yang baru mengunjungi Hotel Jatra Balikpapan dan belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up, dengan menginputkan nama panjang, username, dan No. Hp.
@@ -62,18 +64,21 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
    ![Screenshot (271)](https://github.com/user-attachments/assets/cabbf530-f015-4845-b239-b172dcc7e810)
 
   Jika user berhasil untuk Sign Up, otomatis akan ditampilkan akun user dengan saldo E-Money dan PIN yang telah diberikan.
+
   
 # Jika Masuk dengan Username dan PIN "Admin" (Menu Fitur Admin)
 
  ![Screenshot (165)](https://github.com/user-attachments/assets/50bf684e-7a5e-4cf4-b99f-396047fac8a8)
 
  Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah terdaftar sebagai admin. Setelah berhasil melakukan login, admin akan ditampilkan dengan menu fitur admin yang di menu fitur    admin ini bisa melakukan proses CRUD (Create, Read, Update, Delete) data kamar, melihat daftar reservasi, melihat daftar akun, serta logout.
+ 
 
 # Jika Masuk dengan Username Tamu (Menu Fitur Tamu)
 
 ![Screenshot (244)](https://github.com/user-attachments/assets/02908dde-00fd-40cb-8f49-ed11e1c0cbfc)
  
 Tamu menginputkan Username dan PIN yang sudah terdaftar dalam database. Seperti gambar diatas, user menginputkan Username "Mepa" dan PIN "15937" maka user telah berhasil melakukan login sebagai tamu. Selanjutnya tamu akan diarahkan ke menu fitur tamu, yang di menu fitur tamu ini bisa melakukan melihat daftar kamar, buat reservasi, daftar reservasi, cek saldo E Money, Top Up saldo, Update Akun, Cek informasi akun, serta log out dari menu fitur tamu. 
+
 
 # Jika memilih opsi 1 maka akan diarahkan ke Daftar Kamar
 
@@ -99,6 +104,7 @@ Usert melihat daftar kamar terlebih dahulu untuk menginputkan nomor kamar, tangg
 
 Invoice berguna sebagai bukti pembayaran bahwa reservasi kamar telah berhasil dilakukan.
 
+
 # Jika memilih opsi 3 maka akan diarahkan ke Daftar Reservasi
 
 Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengecek apakah sudah ter-reservasi atau belum. 
@@ -113,13 +119,15 @@ Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengec
   
   ![Screenshot (275)](https://github.com/user-attachments/assets/77cdf441-55e8-4be4-bed2-5602c05388b0)
 
-Maka tampilan pada tabel akan kosong.
+  Jika user belum melakukan reservasi kamar, naka tampilan pada tabel akan kosong.
+
 
 # Jika memilih opsi 4 maka akan diarahkan ke Cek Saldo E Money
 
 ![Screenshot (280)](https://github.com/user-attachments/assets/f5ca3e53-3f9c-4801-9842-3f863d2fd89f)
 
 Pada opsi 4, tamu bisa mengecek terlebih nominal saldo di E Money yang telah disimpan dalam database.
+
 
 # Jika memilih opsi 5 maka akan diarahkan ke Top Up Saldo
 
@@ -133,6 +141,7 @@ Ketika saldo E Money kurang, user bisa melakukan Top Up saldo ke E Money, tamu d
 
 Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah berhasil dilakukan.
 
+
 # Jika memilih opsi 6 maka akan diarahkan ke Update Akun
 
 Tamu juga bisa meng-Update akun yang mereka punya dengan mengubah Username, PIN, ataupun No. Hp yang baru. Pada gambar diatas, user ingin mengubah PIN lama dengan memasukkan PIN nya yang baru. 
@@ -145,11 +154,13 @@ Pada gambar diatas, tamu dengan username "Siti" ingin mengubah usernamenya menja
 
 Dan ketika dia mengecek informasi akunnya, usernamenya telah diganti menjadi "Kela".
 
+
 # Jika memilih opsi 7 maka akan diarahkan ke Cek Informasi Akun
 
 ![Screenshot (205)](https://github.com/user-attachments/assets/229e9718-be97-4892-8661-2c0b89123f36)
 
 Tamu dengan nama "Mepa" ingin mengecek informasi akun miliknya dengan memilih opsi 7. Pada opsi ini "Mepa" akan melihat informasi tentang akunnya yang telah disimpan dalam data hotel seperti Nama Panjang, Username, PIN, serta No.Hp.
+
 
 # Jika memilih opsi 8 maka akan diarahkan ke Log Out
 
@@ -167,13 +178,14 @@ Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali ke m
 
 ![Screenshot (186)](https://github.com/user-attachments/assets/93df42e8-9423-4c23-8510-db3652cd6194)
 
+
 # Jika tamu input selain opsi 1-8
 
 ![Screenshot (296)](https://github.com/user-attachments/assets/9e2f59db-5625-4692-8db7-41b6a7f43dd8)
 
 Maka outputnya pilihan tidak valid! dan dengan otomatis akan looping kembali ke fitur menu tamu.
 
-========================================================================================================================================================================================
+==========================================================================================================================================================================================
 
 # Tampilan Mode Create (Tambah Kamar) Pada Admin
 
@@ -186,6 +198,7 @@ Maka outputnya pilihan tidak valid! dan dengan otomatis akan looping kembali ke 
 ![Screenshot (254)](https://github.com/user-attachments/assets/9dc87e23-29ff-4b5b-b7b5-505ab85ac469)
 
 Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Balikpapan.
+
 
 # Tampilan Mode Read pada Admin (Insert Fitur Sorting dan Searching)
 
@@ -232,6 +245,7 @@ Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam
    ![Screenshot (285)](https://github.com/user-attachments/assets/542b41cf-3214-4e0d-9829-126f31376a32)
 
     Admin dapat melakukan searching kamar dengan menginputkan nomor kamar yang ingin dicari.
+
    
 # Tampilan Mode Update Kamar pada Admin
 
@@ -272,11 +286,13 @@ Nomor kamar sudah tidak ada dalam daftar kamar.
 
 Opsi ini dibuat untuk admin yang ingin melihat daftar akun tamu yang sudah melakukan reservasi di Hotel Jatra Balikpapan.
 
+
 # Tampilan Mode Read (Daftar Akun)
 
  ![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
  Pada opsi 6 ini, admin dapat melihat daftar-daftar akun dari para tamu pengunjung hotel. 
+
 
 # Tampilan Mode Log Out
  ![Screenshot (184)](https://github.com/user-attachments/assets/bad2ad02-edc6-4b3a-a566-ad82323c5d46)
@@ -296,6 +312,7 @@ Opsi ini dibuat untuk admin yang ingin melihat daftar akun tamu yang sudah melak
   Jika mulai kembali, maka admin kembali ke menu login untuk memasukkan Username dan PIN kembali. 
 
  ![Screenshot (186)](https://github.com/user-attachments/assets/a1c69469-ad00-4bd7-b0b3-26b57178237c)
+
 
 # Jika admin input selain opsi 1-7
 
