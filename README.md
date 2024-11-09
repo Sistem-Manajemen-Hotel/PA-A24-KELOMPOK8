@@ -180,24 +180,27 @@ Admin bisa melakukan update kamar dengan memilih lantai kamar, masukkan nomor ka
 
 
 # Tampilan Mode Remove (Hapus Kamar) pada Admin
-![Screenshot (182)](https://github.com/user-attachments/assets/333d1860-eef6-4025-a6c7-e79c599ce749)
+
+![Screenshot (256)](https://github.com/user-attachments/assets/8f9c3eff-ae55-4bcd-b1a4-85f70a7c8096)
 
 Pada opsi ini, admin bisa menghapus kamar dari daftar kamar dengan memasukkan nomor kamar yang ingin dihapus.
  
 * Untuk melihat daftar kamar setelah nomor kamar tersebut dihapus yaitu dengan ketik 1.
   
-![Screenshot (183)](https://github.com/user-attachments/assets/eee18b77-1b04-44a0-b138-905a90a0bee4)
+![Screenshot (257)](https://github.com/user-attachments/assets/34aa5136-b1f2-4792-8320-eda27766656d)
 
 Nomor kamar sudah tidak ada dalam daftar kamar.
 
 
 # Tampilan Mode Read (Daftar Reservasi)
 
-Opsi ini dibuat untuk tamu yang sudah melakukan reservasi mengecek kembali apakah sudah reservasi atau belum. 
+![Screenshot (258)](https://github.com/user-attachments/assets/41381dc1-1963-4a13-87c1-1924000f18a1)
+
+Opsi ini dibuat untuk tamu yang sudah melakukan reservasi di Hotel Jatra Balikpapan.
 
 # Tampilan Mode Read (Daftar Akun)
 
-![Screenshot (218)](https://github.com/user-attachments/assets/b2105f31-15c4-4b09-96ba-7a918453a523)
+![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
 Pada opsi 6 ini, admin dapat melihat daftar-daftar akun dari para tamu pengunjung hotel. 
 
@@ -211,7 +214,7 @@ Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode L
   
   Jika memilih keluar dari program, maka menampilkan output seperti dibawah ini.
   
-![Screenshot (190)](https://github.com/user-attachments/assets/a38e7adb-57ac-4358-82ae-cf3eb97bdaba)
+![Screenshot (260)](https://github.com/user-attachments/assets/bacfee43-2c23-457f-a8ee-f2af4f5c57ad)
 
 
 * Tampilan jika mulai kembali
