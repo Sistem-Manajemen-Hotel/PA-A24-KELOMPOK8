@@ -1,7 +1,8 @@
 # PROJECT AKHIR-KELOMPOK 8-DASPRO
-Sistem Informasi-A 2024
-   
-**Sistem Manajemen Hotel**
+Sistem Informasi - A - 2024
+
+# SISTEM MANAJEMEN HOTEL
+**Hotel Jatra Balikpapan**
  
 # Anggota Kelompok 
 1. Hendri Zaidan (2409116013)
@@ -23,13 +24,13 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
    
    * Tampilan jika user salah menginputkan Username atau PIN.
     
-![Screenshot (272)](https://github.com/user-attachments/assets/b4afe12c-fcb9-4ade-96b1-c0aea6792d49)
+   ![Screenshot (272)](https://github.com/user-attachments/assets/b4afe12c-fcb9-4ade-96b1-c0aea6792d49)
 
-User salah menginputkan Username 
+   ^^User salah menginputkan Username^^
 
-![Screenshot (274)](https://github.com/user-attachments/assets/8e1037ef-6965-4d29-b602-e569bc4bac1f)
+   ![Screenshot (274)](https://github.com/user-attachments/assets/8e1037ef-6965-4d29-b602-e569bc4bac1f)
 
-User salah menginputkan PIN 
+   ^^User salah menginputkan PIN^^ 
 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
@@ -37,23 +38,23 @@ User salah menginputkan PIN
 
    Jika user belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up dengan menginputkan nama panjang, username, dan No. Hp.
    
-![Screenshot (270)](https://github.com/user-attachments/assets/8cf48db2-f082-46b0-bacd-7fc55834248b)
+   ![Screenshot (270)](https://github.com/user-attachments/assets/8cf48db2-f082-46b0-bacd-7fc55834248b)
 
    * Tampilan jika user menginputkan username yang sudah terdaftar 
      
-![Screenshot (268)](https://github.com/user-attachments/assets/4646f9c0-d257-4f21-b76a-ed011f88c0fa)
+   ![Screenshot (268)](https://github.com/user-attachments/assets/4646f9c0-d257-4f21-b76a-ed011f88c0fa)
 
-Jika user memasukkan username yang sudah terdaftar dalam hotel, user diminta menginputkan kembali.
-
-* Tampilan jika user menginputkan No. Hp lebih dari 12 digit
+   Jika user memasukkan username yang sudah terdaftar dalam hotel, user diminta menginputkan kembali.
+   
+   * Tampilan jika user menginputkan No. Hp lebih dari 12 digit
 
   ![Screenshot (269)](https://github.com/user-attachments/assets/88a8f7eb-53d9-43ff-882a-122cbbc49554)
 
-No. Hp yang dimasukkan user tidak boleh lebih dari 12 digit.
+   No. Hp yang dimasukkan user tidak boleh lebih dari 12 digit.
 
-* Tampilan user telah terdaftar
+   * Tampilan user telah terdaftar
   
-![Screenshot (271)](https://github.com/user-attachments/assets/cabbf530-f015-4845-b239-b172dcc7e810)
+   ![Screenshot (271)](https://github.com/user-attachments/assets/cabbf530-f015-4845-b239-b172dcc7e810)
 
   Jika user berhasil untuk Sign Up, otomatis akan ditampilkan akun user dengan saldo E-Money dan PIN yang telah diberikan.
   
