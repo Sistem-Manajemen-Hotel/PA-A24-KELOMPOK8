@@ -13,10 +13,10 @@ Sistem Informasi - A - 2024
 
 ![PA (2)](https://github.com/user-attachments/assets/3631bc1c-0490-4cb3-8415-7bc711b547d4)
 
-# Menu Login atau Sign Up
+# Menu Login atau daftar akun
 ![Screenshot (164)](https://github.com/user-attachments/assets/30df4070-5d49-42b0-9a7f-c556b166da81)
 
-Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign Up terlebih dahulu.
+Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau daftar akun terlebih dahulu.
 
    * Jika menginputkan angka selain 1 atau 2
 
@@ -48,7 +48,7 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
 
    ^^User salah menginputkan PIN^^ 
 
-   User yang salah memasukkan Username dan PIN, outputnya username dan pin tidak valid dan diminta untuk menginputkan data kembali.
+   User yang salah memasukkan Username atau PIN, outputnya username dan pin tidak valid dan diminta untuk menginputkan data kembali.
 
    * Jika user 3 kali mencoba login maka,
 
@@ -74,20 +74,37 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
      ![Screenshot (269)](https://github.com/user-attachments/assets/88a8f7eb-53d9-43ff-882a-122cbbc49554)
 
      No. Hp yang dimasukkan user tidak boleh lebih dari 12 digit.
+     
+   * Tampilan jika user menginputkan No. Hp berupa huruf maka,
 
+     ![image](https://github.com/user-attachments/assets/687de89f-a1e8-4adb-b258-fc5eb6bc69eb)
+
+     maka outputnya Nomor HP harus berupa angka. Silakan coba lagi dan otomatis looping ke menu daftar akun 
+ 
    * Tampilan user telah terdaftar
   
      ![Screenshot (271)](https://github.com/user-attachments/assets/cabbf530-f015-4845-b239-b172dcc7e810)
 
      Jika user berhasil untuk Sign Up, otomatis akan ditampilkan akun user dengan saldo E-Money dan PIN yang telah diberikan.
 
+   * Keluar atau mulai ke Mode Login
+
+     Jika user sudah cukup menggunakan daftar akun, user bisa memilih Keluar atau Mulai ke Mode Login. Disaat memilih user akan diberikan dua opsi yaitu
+     Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", user akan diarahkan ke Menu awal lagi.
+
+     Jika user memilih keluar maka,
+   
+     ![image](https://github.com/user-attachments/assets/2a30a240-eb9a-4a05-bd7c-974897cdc654)
+
+     Jika user memilih mulai maka kembali ke menu awal,
+ 
+     ![image](https://github.com/user-attachments/assets/da74b106-10fb-4895-b621-0bd8c5661785)
   
 # Jika Masuk dengan Username dan PIN "Admin" (Menu Fitur Admin)
 
   ![Screenshot (165)](https://github.com/user-attachments/assets/50bf684e-7a5e-4cf4-b99f-396047fac8a8)
 
  Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah terdaftar sebagai admin. Setelah berhasil melakukan login, admin akan ditampilkan dengan menu fitur admin yang di menu fitur    admin ini bisa melakukan proses CRUD (Create, Read, Update, Delete) data kamar, melihat daftar reservasi, melihat daftar akun, serta logout.
- 
 
 # Jika Masuk dengan Username Tamu (Menu Fitur Tamu)
 
@@ -112,14 +129,33 @@ Usert melihat daftar kamar terlebih dahulu untuk menginputkan nomor kamar, tangg
 
 * Jika memasukkan nomor kamar yang tidak tersedia di daftar kamar
   
-  ![Screenshot (220)](https://github.com/user-attachments/assets/0ff0cd23-8619-4d64-b13c-6751ca9ff67d)
+  ![image](https://github.com/user-attachments/assets/4ac18d89-e6c2-4713-8afa-700ff5265250)
+
+  dan otomatis ke menu tamu
+
+* Jika memasukkan nomor kamar telah dipesan, maka
+
+  ![image](https://github.com/user-attachments/assets/e18e6b2c-7cfb-4217-8a89-5bf9e99597ca)
+
+  outputnya nomor kamar telah dipesan dan otomatis ke menu tamu
+
+* Jika memasukkan tanggal dan waktu yang salah, maka
+
+  ![image](https://github.com/user-attachments/assets/4ad64446-27a2-4060-9790-8f5b5663b8a3)
+
+  outputnya Format tanggal atau waktu tidak valid! dan otomatis ke menu tamu
+  
+* Jika user memilih nomor kamar kalau saldonya gak cukup, maka
+  
+  ![image](https://github.com/user-attachments/assets/34d06aa1-8845-402b-bf50-f8bd40d46f2b)
+
+  outputnya Saldo Anda tidak cukup! Mohon top up terlebih dahulu. dan otomatis ke menu tamu
 
 * Setelah transaksi reservasi kamar berhasil maka user ditampilkan invoice
 
   ![343675a2-0573-4543-8f6a-7abba77ae322](https://github.com/user-attachments/assets/1e3cd638-ee93-426c-a571-df84f2adaa4d)
 
-Invoice berguna sebagai bukti pembayaran bahwa reservasi kamar telah berhasil dilakukan.
-
+Invoice berguna sebagai bukti pembayaran bahwa reservasi kamar telah berhasil dilakukan dan saldo e money berkurang secara otomatis.
 
 # Jika memilih opsi 3 maka akan diarahkan ke Daftar Reservasi
 
@@ -149,37 +185,52 @@ Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengec
 
   ![Screenshot (277)](https://github.com/user-attachments/assets/ab844785-be3f-4ff6-9da2-083aec5fe5a9)
 
-  Ketika saldo E Money kurang, user bisa melakukan Top Up saldo ke E Money, tamu diminta untuk memasukkan nominal untuk ditambahkan dan nominal harus lebih dari 0.
+  Ketika saldo E Money kurang, user bisa melakukan Top Up saldo ke E Money, tamu diminta untuk memasukkan nominal untuk ditambahkan dan nominal harus minimal 20000 dan maksimal 6000000.
+
+  jika user menginput kurang dari 20000 maka,
+
+  ![image](https://github.com/user-attachments/assets/e115f0ed-2180-4ca5-977f-07ed5cfa72bd)
+
+  outputnya user harus top up saldo lebih dari 20000
+  
+  ![image](https://github.com/user-attachments/assets/5cdc2cee-141f-4d35-9b40-b432defbbbe5)
+
+  jika user menginput lebih dari 6000000 maka,
+
+  outpunya user harus top up maksimal 6000000 dan tidak boleh melebihi batas,
 
 * Setelah transaksi Top Up saldo berhasil maka user ditampilkan invoice
 
   ![invoice saldo](https://github.com/user-attachments/assets/16ce4f0b-127f-4ad5-8da4-cfa5bdab8bea)
 
-Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah berhasil dilakukan.
+Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah berhasil dilakukan dan saldo e money nya bertambah secara otomatis.
 
 
 # Jika memilih opsi 6 maka akan diarahkan ke Update Akun
 
-  Tamu juga bisa meng-Update akun yang mereka punya dengan mengubah Username, PIN, ataupun No. Hp yang baru. Pada gambar diatas, user ingin mengubah PIN lama dengan memasukkan PIN nya yang baru. 
+  Tamu juga bisa meng-Update akun yang mereka punya dengan mengubah Username, PIN, ataupun No. Hp yang baru. 
 
   ![Screenshot (242)](https://github.com/user-attachments/assets/64fdf766-1ad9-499e-87c4-82ad4220ed48)
 
-  Pada gambar diatas, tamu dengan username "Siti" ingin mengubah usernamenya menjadi "Kela"
+  Pada gambar diatas, tamu dengan username "Siti" ingin mengubah usernamenya menjadi "Kela" dan otomatis ke menu login. dan login harus menginput username barunya.
 
   ![Screenshot (243)](https://github.com/user-attachments/assets/dc79337d-d1b0-4b2e-aaca-6ce74130e507)
 
-  Dan ketika dia mengecek informasi akunnya, usernamenya telah diganti menjadi "Kela".
+  kemudian stelah login, ketika dia mengecek informasi akunnya, usernamenya telah diganti menjadi "Kela".
 
 
 # Jika memilih opsi 7 maka akan diarahkan ke Cek Informasi Akun
 
- ![Screenshot (205)](https://github.com/user-attachments/assets/229e9718-be97-4892-8661-2c0b89123f36)
+ ![image](https://github.com/user-attachments/assets/d55c37a6-b7e6-4db2-926f-aefa7ffa1c49)
 
  Tamu dengan nama "Mepa" ingin mengecek informasi akun miliknya dengan memilih opsi 7. Pada opsi ini "Mepa" akan melihat informasi tentang akunnya yang telah disimpan dalam data hotel seperti Nama Panjang, Username, PIN, serta No.Hp.
 
 
 # Jika memilih opsi 8 maka akan diarahkan ke Log Out
 
+  Jika tamu sudah cukup menggunakan menu tamu, user bisa memilih Keluar atau Mulai ke Mode Login. Disaat memilih tamu akan diberikan dua opsi yaitu
+  Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode admin yang otomatis ketika tamu input "Mulai", user akan diarahkan ke Menu awal lagi.
+  
   ![Screenshot (281)](https://github.com/user-attachments/assets/0b6d9ba4-c2a3-40e8-9ffc-f32125e6cbcd)
 
   Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali ke menu login.
@@ -201,8 +252,6 @@ Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah b
 
   Maka outputnya pilihan tidak valid! dan dengan otomatis akan looping kembali ke fitur menu tamu.
 
-==========================================================================================================================================================================================
-
 # Tampilan Mode Create (Tambah Kamar) Pada Admin
 
  Jika admin ingin menambah kamar hotel, input angka 2.
@@ -215,6 +264,29 @@ Invoice berguna sebagai bukti pembayaran bahwa transaksi pengisian saldo telah b
 
  Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Balikpapan.
 
+ Jika admin menginput lantai selain lantai dari database hotel, maka
+
+ ![image](https://github.com/user-attachments/assets/0119d5df-2db1-4d93-875f-efcf4de425a1)
+
+ Outputnya Lantai tidak valid! Harap masukkan 3, 4, atau 5. dan otomatis looping ke menu admin.
+
+ Jika admin menginput nomor kamar yang tidak ada di lantai di databse hotel, maka
+
+ ![image](https://github.com/user-attachments/assets/66639d3c-f7b1-4d49-8125-d184a277ffb4)
+
+ Outputnya Nomor kamar untuk lantai 4 harus dalam rentang 400 - 499 dan otomatis looping ke menu admin.
+
+ Jika admin menginput harga/malam selain angka maka,
+ 
+ ![image](https://github.com/user-attachments/assets/1812fed7-09a0-4672-bd13-3f9a9518535b)
+
+ Outputnya Input harga tidak sesuai! Harap masukkan angka bulat! dan otomatis looping ke menu admin.
+
+ Jika admin menginput nomor kamar yang sudah ada di daftar kamar maka,
+
+ ![image](https://github.com/user-attachments/assets/9c75033b-5725-413b-8c45-227d7d32f668)
+
+ Outputnya Kamar 401 sudah ada di lantai 4 dan otomatis looping ke menu admin.
 
 # Tampilan Mode Read pada Admin (Insert Fitur Sorting dan Searching)
 
@@ -226,7 +298,7 @@ Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam
 
    Admin dapat melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
 
-    * Sebelum
+   * Sebelum
     
    ![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
@@ -246,6 +318,11 @@ Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam
 
    Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
 
+   Jika admin melakukan searching akun yang tidak ada maka,
+
+   ![image](https://github.com/user-attachments/assets/7cb3235a-de2c-45af-b5f5-208f4373994a)
+
+   Seperti pada gambar di atas, tabel kosong karena username "risky" ini tidak terdaftar di database hotel
 
 **2. Sorting dan Searching Daftar Kamar**
 
@@ -260,9 +337,13 @@ Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam
 
    ![Screenshot (285)](https://github.com/user-attachments/assets/542b41cf-3214-4e0d-9829-126f31376a32)
 
-    Admin dapat melakukan searching kamar dengan menginputkan nomor kamar yang ingin dicari.
+   Admin dapat melakukan searching kamar dengan menginputkan nomor kamar yang ingin dicari.
 
+   Jika admin melakukan searching akun yang tidak ada maka,
    
+   ![image](https://github.com/user-attachments/assets/6a3fa78a-ba58-4929-9598-c1712a779486)
+
+   Seperti pada gambar di atas, tabel kosong karena nomor kamar "711" ini tidak terdaftar di database hotel
 # Tampilan Mode Update Kamar pada Admin
 
 ![Screenshot (290)](https://github.com/user-attachments/assets/d7ecb9fa-527e-43d2-9d76-25722b070db0)
