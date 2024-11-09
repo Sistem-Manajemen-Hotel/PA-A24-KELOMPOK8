@@ -56,7 +56,6 @@ Setelah proses sign up berhasil dilakukan, dengan otomatis akan menampilkan outp
 
 
 # Jika memilih opsi 1 maka akan diarahkan ke Daftar Kamar
-![Screenshot (170)](https://github.com/user-attachments/assets/17749cb0-1e85-4508-bfb1-8180a3b91a5c)
 
 Setelah masuk ke menu fitur tamu, tamu dapat ketik opsi 1. Pada opsi 1, tamu bisa melihat daftar kamar yang ada di hotel dengan keterangan Nomor kamar, Tipe, Fasilitas, serta Harga/Malam nya.
 
@@ -146,8 +145,12 @@ Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali.
 
 # Tampilan Mode Create (Tambah Kamar) Pada Admin
  Jika admin ingin menambah kamar hotel, input angka 2.
+ 
+![Screenshot (253)](https://github.com/user-attachments/assets/c64918d2-81ef-4fa2-908b-2964b178ea62)
 
  Setelah itu admin diminta memasukkan nomor lantai, nomor kamar, tipe kamar, fasilitas kamar, dan harga per malam sesuai keinginan admin. 
+ 
+![Screenshot (254)](https://github.com/user-attachments/assets/9dc87e23-29ff-4b5b-b7b5-505ab85ac469)
 
 Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Balikpapan.
 
@@ -187,7 +190,7 @@ Pada opsi ini, admin bisa menghapus kamar dari daftar kamar dengan memasukkan no
  
 * Untuk melihat daftar kamar setelah nomor kamar tersebut dihapus yaitu dengan ketik 1.
   
-![Screenshot (257)](https://github.com/user-attachments/assets/34aa5136-b1f2-4792-8320-eda27766656d)
+![Screenshot (257)](https://github.com/user-attachments/assets/1cc81466-caf4-4125-97f5-1d13fda98011)
 
 Nomor kamar sudah tidak ada dalam daftar kamar.
 
@@ -196,7 +199,7 @@ Nomor kamar sudah tidak ada dalam daftar kamar.
 
 ![Screenshot (258)](https://github.com/user-attachments/assets/41381dc1-1963-4a13-87c1-1924000f18a1)
 
-Opsi ini dibuat untuk tamu yang sudah melakukan reservasi di Hotel Jatra Balikpapan.
+Opsi ini dibuat untuk admin yang ingin melihat daftar akun tamu yang sudah melakukan reservasi di Hotel Jatra Balikpapan.
 
 # Tampilan Mode Read (Daftar Akun)
 
