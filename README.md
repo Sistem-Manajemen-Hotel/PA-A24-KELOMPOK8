@@ -77,6 +77,7 @@ Setelah masuk ke menu fitur tamu, tamu dapat ketik opsi 1. Pada opsi 1, tamu bis
 
 
 # Jika memilih opsi 2 maka akan diarahkan ke Buat Reservasi
+
 Opsi ini dibuat untuk para pengunjung Hotel Jatra Balikpapan untuk melakukan reservasi kamar. 
 Usert melihat daftar kamar terlebih dahulu untuk menginputkan nomor kamar, tanggal reservasi dan waktu reservasi kamar. Tampilannya seperti pada gambar dibawah ini.
 
@@ -93,6 +94,7 @@ Usert melihat daftar kamar terlebih dahulu untuk menginputkan nomor kamar, tangg
 Invoice berguna sebagai bukti pembayaran bahwa reservasi kamar telah berhasil dilakukan.
 
 # Jika memilih opsi 3 maka akan diarahkan ke Daftar Reservasi
+
 Opsi ini dibuat untuk tamu yang sudah melakukan reservasi kamar dan ingin mengecek apakah sudah ter-reservasi atau belum. 
 
 * Jika user telah berhasil melakukan reservasi dan ingin mengecek reservasi kamarnya maka tampilan seperti pada gambar di bawah ini
@@ -172,22 +174,36 @@ Proses tambah kamar berhasil dilakukan dan masuk ke daftar kamar Hotel Jatra Bal
 
 # Tampilan Mode Read pada Admin (Insert Fitur Sorting dan Searching)
 
-![Screenshot (207)](https://github.com/user-attachments/assets/ea744330-5594-43ab-ab72-0a464abf8459)
+Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam suatu urutan tertentu, seperti nomor, nama panjang, username, PIN, No. Hp, dan saldo E Money, abjad, atau karakteristik lainnya. Selain itu, admin juga dapat melakukan searching atau proses mencari informasi atau nilai tertentu dalam suatu kumpulan data atau struktur. Sorting dan searching ini sangat berguna dalam berbagai aplikasi, mulai dari penyimpanan data, pemrosesan informasi, hingga optimasi pencarian.
 
-Pada opsi ini admin bisa melakukan proses menyusun data atau elemen-elemen dalam suatu urutan tertentu. Berdasarkan gambar diatas seperti nomor, nama panjang, username, PIN, No. Hp, dan saldo E Money. , abjad, atau karakteristik lainnya. Sorting dan searching ini sangat berguna dalam berbagai aplikasi, mulai dari penyimpanan data, pemrosesan informasi, hingga optimasi pencarian.
+1. Sorting dan Searching Akun
+    
+**Sorting Akun**
 
-* Tampilan Mode Sorting
+  Admin dapat melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
+  
+  * Sebelum
+    
+![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
-Menampilkan data yang telah disorting.
+Daftar akun tamu sebelum di sorting.
 
-![Screenshot (211)](https://github.com/user-attachments/assets/4f4cf06b-8977-46c3-ad7f-b84a3eb681ee)
+  * Sesudah
+![Screenshot (261)](https://github.com/user-attachments/assets/c07df62c-9fc2-42b5-89a0-5547e9145f93)
 
-*Tampilan Mode Searching
+Admin telah melakukan sorting daftar akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
 
-Admin bisa melakukan searching akun dari tamu dengan memasukkan username yang ingin dicari. Setelah itu program akan menampilkan informasi akun yang dicari.
+**Searching Akun**
 
-![Screenshot (210)](https://github.com/user-attachments/assets/685d68b2-d0c5-4e78-b2ad-6ebcfcdcd063)
+  Admin dapat melakukan searching akun tamu dengan menginputkan username dari tamu yang ingin dicari.
+  
+![Screenshot (263)](https://github.com/user-attachments/assets/5708801a-1a2e-4168-af1b-b1a07c4c0eaf)
 
+Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
+
+2. Sorting dan Searching Kamar
+
+   
 # Tampilan Mode Update Kamar pada Admin
 ![Screenshot (194)](https://github.com/user-attachments/assets/3d1c700f-72bc-404b-bc36-4cd57fe1a332)
 
@@ -222,18 +238,6 @@ Opsi ini dibuat untuk admin yang ingin melihat daftar akun tamu yang sudah melak
 ![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
 Pada opsi 6 ini, admin dapat melihat daftar-daftar akun dari para tamu pengunjung hotel. 
-
-* Sorting Akun
-  
-![Screenshot (261)](https://github.com/user-attachments/assets/c07df62c-9fc2-42b5-89a0-5547e9145f93)
-
-Admin dapat melakukan sorting akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
-
-* Searching Akun
-  
-![Screenshot (263)](https://github.com/user-attachments/assets/5708801a-1a2e-4168-af1b-b1a07c4c0eaf)
-
-Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
 
 # Tampilan Mode Log Out
 ![Screenshot (184)](https://github.com/user-attachments/assets/bad2ad02-edc6-4b3a-a566-ad82323c5d46)
