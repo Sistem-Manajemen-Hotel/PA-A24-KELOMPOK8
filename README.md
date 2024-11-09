@@ -1,8 +1,8 @@
 # PROJECT AKHIR-KELOMPOK 8-DASPRO
 Sistem Informasi - A - 2024
 
-# SISTEM MANAJEMEN HOTEL
-**Hotel Jatra Balikpapan**
+**SISTEM MANAJEMEN HOTEL**
+<<>> Hotel Jatra Balikpapan <<>>
  
 # Anggota Kelompok 
 1. Hendri Zaidan (2409116013)
@@ -18,7 +18,12 @@ Sistem Informasi - A - 2024
 
 Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign Up terlebih dahulu.
 
-**1. Login (jika sudah punya akun)**
+* Jika menginputkan angka selan 1 atau 2
+
+  ![Screenshot (295)](https://github.com/user-attachments/assets/26fe9b2a-24af-4af5-854f-b63e9378a6f8)
+  
+
+**1. Login (jika sudah memiliki akun)**
   
    Ketika user telah memiliki akun atau telah memasukkan Username dan PIN yang sudah terdaftar dalam data Hotel, maka user ketik 1, dan dengan otomatis akan diarahkan ke menu fitur tamu.
    
@@ -34,13 +39,13 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
-**2. Sign Up (jika belum punya akun)**
+**2. Sign Up (jika belum memiliki akun)**
 
-   Jika user belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up dengan menginputkan nama panjang, username, dan No. Hp.
+   Bagi user yang baru mengunjungi Hotel Jatra Balikpapan dan belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up, dengan menginputkan nama panjang, username, dan No. Hp.
    
    ![Screenshot (270)](https://github.com/user-attachments/assets/8cf48db2-f082-46b0-bacd-7fc55834248b)
 
-   * Tampilan jika user menginputkan username yang sudah terdaftar 
+   * Tampilan jika user menginputkan username yang sudah terdaftar  
      
    ![Screenshot (268)](https://github.com/user-attachments/assets/4646f9c0-d257-4f21-b76a-ed011f88c0fa)
 
@@ -60,9 +65,9 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
   
 # Jika Masuk dengan Username dan PIN "Admin" (Menu Fitur Admin)
 
-![Screenshot (165)](https://github.com/user-attachments/assets/50bf684e-7a5e-4cf4-b99f-396047fac8a8)
+ ![Screenshot (165)](https://github.com/user-attachments/assets/50bf684e-7a5e-4cf4-b99f-396047fac8a8)
 
-Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah terdaftar sebagai admin. Setelah berhasil melakukan login, admin akan ditampilkan dengan menu fitur admin yang di menu fitur admin ini bisa melakukan proses CRUD (Create, Read, Update, Delete) data kamar, melihat daftar reservasi, melihat daftar akun, serta logout.
+ Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah terdaftar sebagai admin. Setelah berhasil melakukan login, admin akan ditampilkan dengan menu fitur admin yang di menu fitur    admin ini bisa melakukan proses CRUD (Create, Read, Update, Delete) data kamar, melihat daftar reservasi, melihat daftar akun, serta logout.
 
 # Jika Masuk dengan Username Tamu (Menu Fitur Tamu)
 
@@ -162,6 +167,14 @@ Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali ke m
 
 ![Screenshot (186)](https://github.com/user-attachments/assets/93df42e8-9423-4c23-8510-db3652cd6194)
 
+# Jika tamu input selain opsi 1-8
+
+![Screenshot (296)](https://github.com/user-attachments/assets/9e2f59db-5625-4692-8db7-41b6a7f43dd8)
+
+Maka outputnya pilihan tidak valid! dan dengan otomatis akan looping kembali ke fitur menu tamu.
+
+=======================================================================================================================================================
+
 # Tampilan Mode Create (Tambah Kamar) Pada Admin
 
  Jika admin ingin menambah kamar hotel, input angka 2.
@@ -243,11 +256,12 @@ Admin bisa melakukan update kamar dengan memilih lantai kamar, masukkan nomor ka
 
 ![Screenshot (256)](https://github.com/user-attachments/assets/8f9c3eff-ae55-4bcd-b1a4-85f70a7c8096)
 
-Pada opsi ini, admin bisa menghapus kamar dari daftar kamar dengan memasukkan nomor kamar yang ingin dihapus.
+ Pada opsi ini, admin bisa menghapus kamar dari daftar kamar dengan memasukkan nomor kamar yang ingin dihapus.
+ 
  
 * Untuk melihat daftar kamar setelah nomor kamar tersebut dihapus yaitu dengan ketik 1.
   
-![Screenshot (257)](https://github.com/user-attachments/assets/1cc81466-caf4-4125-97f5-1d13fda98011)
+ ![Screenshot (257)](https://github.com/user-attachments/assets/1cc81466-caf4-4125-97f5-1d13fda98011)
 
 Nomor kamar sudah tidak ada dalam daftar kamar.
 
@@ -260,25 +274,25 @@ Opsi ini dibuat untuk admin yang ingin melihat daftar akun tamu yang sudah melak
 
 # Tampilan Mode Read (Daftar Akun)
 
-![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
+ ![Screenshot (259)](https://github.com/user-attachments/assets/7e8589d5-f3f1-45b0-bd79-eef422e49135)
 
-Pada opsi 6 ini, admin dapat melihat daftar-daftar akun dari para tamu pengunjung hotel. 
+ Pada opsi 6 ini, admin dapat melihat daftar-daftar akun dari para tamu pengunjung hotel. 
 
 # Tampilan Mode Log Out
-![Screenshot (184)](https://github.com/user-attachments/assets/bad2ad02-edc6-4b3a-a566-ad82323c5d46)
+ ![Screenshot (184)](https://github.com/user-attachments/assets/bad2ad02-edc6-4b3a-a566-ad82323c5d46)
 
-Jika admin cukup menggunakan fiturnya, tamu bisa memilih opsi 7 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu
-Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", tamu akan diarahkan ke Mode Login lagi.
+ Jika admin cukup menggunakan fiturnya, tamu bisa memilih opsi 7 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu
+ Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", tamu akan diarahkan ke Mode Login lagi.
 
 * Tampilan jika keluar dari program
   
   Jika memilih keluar dari program, maka menampilkan output seperti dibawah ini.
   
-![Screenshot (260)](https://github.com/user-attachments/assets/bacfee43-2c23-457f-a8ee-f2af4f5c57ad)
+ ![Screenshot (260)](https://github.com/user-attachments/assets/bacfee43-2c23-457f-a8ee-f2af4f5c57ad)
 
 
 * Tampilan jika mulai kembali
   
   Jika mulai kembali, maka admin kembali ke menu login untuk memasukkan Username dan PIN kembali. 
 
-![Screenshot (186)](https://github.com/user-attachments/assets/a1c69469-ad00-4bd7-b0b3-26b57178237c)
+ ![Screenshot (186)](https://github.com/user-attachments/assets/a1c69469-ad00-4bd7-b0b3-26b57178237c)
