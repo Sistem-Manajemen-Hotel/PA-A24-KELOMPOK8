@@ -24,9 +24,11 @@ Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign 
    * Tampilan jika user salah menginputkan Username atau PIN.
     
 ![Screenshot (272)](https://github.com/user-attachments/assets/b4afe12c-fcb9-4ade-96b1-c0aea6792d49)
+
 User salah menginputkan Username
 
 ![Screenshot (274)](https://github.com/user-attachments/assets/8e1037ef-6965-4d29-b602-e569bc4bac1f)
+
 User salah menginputkan PIN
 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
