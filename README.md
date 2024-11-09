@@ -16,19 +16,21 @@ Sistem Informasi-A 2024
 ![Screenshot (164)](https://github.com/user-attachments/assets/30df4070-5d49-42b0-9a7f-c556b166da81)
 
 Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign Up terlebih dahulu.
-1. Login (jika sudah punya akun)
+**1. Login (jika sudah punya akun)**
   
    Ketika user telah memiliki akun atau telah memasukkan Username dan PIN yang sudah terdaftar dalam data Hotel, maka user ketik 1, dan dengan otomatis akan diarahkan ke menu fitur tamu.
    
    * Tampilan jika user salah menginputkan Username atau PIN.
-     ![Screenshot (271)](https://github.com/user-attachments/assets/8fb51875-42c8-433b-8069-12d6ac28b51e)
-
+    
+![Screenshot (272)](https://github.com/user-attachments/assets/b4afe12c-fcb9-4ade-96b1-c0aea6792d49)
+User salah menginputkan Username
 
 ![Screenshot (274)](https://github.com/user-attachments/assets/8e1037ef-6965-4d29-b602-e569bc4bac1f)
+User salah menginputkan PIN
 
    User yang salah memasukkan Username dan PIN, diminta untuk menginputkan data kembali.
    
-2. Sign Up (jika belum punya akun)
+**2. Sign Up (jika belum punya akun)**
    Jika user belum memiliki akun maka user menginputkan 2 untuk masuk ke menu sign up dengan menginputkan nama panjang, username, dan No. Hp.
    
 ![Screenshot (270)](https://github.com/user-attachments/assets/8cf48db2-f082-46b0-bacd-7fc55834248b)
@@ -45,6 +47,12 @@ Jika user memasukkan username yang sudah terdaftar dalam hotel, user diminta men
 
 No. Hp yang dimasukkan user tidak boleh lebih dari 12 digit.
 
+* Tampilan user telah terdaftar
+  
+![Screenshot (271)](https://github.com/user-attachments/assets/cabbf530-f015-4845-b239-b172dcc7e810)
+
+  Jika user berhasil untuk Sign Up, otomatis akan ditampilkan akun user dengan saldo E-Money dan PIN yang telah diberikan.
+  
 # Jika Masuk dengan Username dan PIN "Admin" (Menu Fitur Admin)
 
 ![Screenshot (165)](https://github.com/user-attachments/assets/50bf684e-7a5e-4cf4-b99f-396047fac8a8)
@@ -53,22 +61,9 @@ Ketika user menginputkan Username "adminhotel" dan PIN "202921", maka user telah
 
 # Jika Masuk dengan Username Tamu (Menu Fitur Tamu)
 
-![Screenshot (232)](https://github.com/user-attachments/assets/c641477e-c674-4310-95a4-0c935a53438e)
+![Screenshot (244)](https://github.com/user-attachments/assets/02908dde-00fd-40cb-8f49-ed11e1c0cbfc)
  
 Tamu menginputkan Username dan PIN yang sudah terdaftar dalam database. Seperti gambar diatas, user menginputkan Username "Mepa" dan PIN "15937" maka user telah berhasil melakukan login sebagai tamu. Selanjutnya tamu akan diarahkan ke menu fitur tamu, yang di menu fitur tamu ini bisa melakukan melihat daftar kamar, buat reservasi, daftar reservasi, cek saldo E Money, Top Up saldo, Update Akun, Cek informasi akun, serta log out dari menu fitur tamu. 
-
-# Sign Up Akun (Daftar Akun Baru)
-![Screenshot (167)](https://github.com/user-attachments/assets/0bd44bf7-8d0b-4dfe-bd3e-11049e45413b)
-
-Bagi user yang belum memiliki akun untuk melakukan login, maka user bisa sign up dengan menginputkan nama panjang, username dan no. Hp.
-
-* Tampilan output jika user menginputkan username yang telah terdaftar, dan diarahkan untuk sig up kembali. 
-![Screenshot (166)](https://github.com/user-attachments/assets/e31934d1-7032-4780-922e-6cec26ff5c68)
-
-Setelah proses sign up berhasil dilakukan, dengan otomatis akan menampilkan output seperti gambar dibawah dengan saldo E Money dan PIN yang telah disimpan dalam database.
-
-![Screenshot (168)](https://github.com/user-attachments/assets/7c3e23e0-91e0-45df-b4cb-f33859780d0d)
-
 
 # Jika memilih opsi 1 maka akan diarahkan ke Daftar Kamar
 
