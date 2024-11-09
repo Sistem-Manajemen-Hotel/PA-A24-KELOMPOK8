@@ -204,6 +204,18 @@ Opsi ini dibuat untuk tamu yang sudah melakukan reservasi di Hotel Jatra Balikpa
 
 Pada opsi 6 ini, admin dapat melihat daftar-daftar akun dari para tamu pengunjung hotel. 
 
+* Sorting Akun
+  
+![Screenshot (261)](https://github.com/user-attachments/assets/c07df62c-9fc2-42b5-89a0-5547e9145f93)
+
+Admin dapat melakukan sorting akun tamu dengan menyusun data dengan urutan alfabet nama panjang tamu.
+
+* Searching Akun
+  
+![Screenshot (263)](https://github.com/user-attachments/assets/5708801a-1a2e-4168-af1b-b1a07c4c0eaf)
+
+Seperti pada gambar diatas, user dapat mencari akun dengan menginputkan username "Adel". Otomatis program menampilkan akun "Adel".
+
 # Tampilan Mode Log Out
 ![Screenshot (184)](https://github.com/user-attachments/assets/bad2ad02-edc6-4b3a-a566-ad82323c5d46)
 
