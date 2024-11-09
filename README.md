@@ -18,9 +18,9 @@ Sistem Informasi - A - 2024
 
 Pada awal program, akan ditampilkan menu utama dengan melakukan Login atau Sign Up terlebih dahulu.
 
-* Jika menginputkan angka selan 1 atau 2
+   * Jika menginputkan angka selain 1 atau 2
 
-  ![Screenshot (295)](https://github.com/user-attachments/assets/26fe9b2a-24af-4af5-854f-b63e9378a6f8)
+     ![Screenshot (295)](https://github.com/user-attachments/assets/26fe9b2a-24af-4af5-854f-b63e9378a6f8)
   
 
 **1. Login (jika sudah memiliki akun)**
@@ -173,7 +173,7 @@ Pada opsi 8 ini tamu bisa melakukan Log Out dari program atau mulai kembali ke m
 
 Maka outputnya pilihan tidak valid! dan dengan otomatis akan looping kembali ke fitur menu tamu.
 
-=======================================================================================================================================================
+========================================================================================================================================================================================
 
 # Tampilan Mode Create (Tambah Kamar) Pada Admin
 
@@ -296,3 +296,8 @@ Opsi ini dibuat untuk admin yang ingin melihat daftar akun tamu yang sudah melak
   Jika mulai kembali, maka admin kembali ke menu login untuk memasukkan Username dan PIN kembali. 
 
  ![Screenshot (186)](https://github.com/user-attachments/assets/a1c69469-ad00-4bd7-b0b3-26b57178237c)
+
+# Jika admin input selain opsi 1-7
+
+![Screenshot (297)](https://github.com/user-attachments/assets/b539ce9b-2549-4e54-86cb-e6edcf95262e)
+
